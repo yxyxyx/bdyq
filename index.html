@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>baiduyuqing</title>
+<link rel="stylesheet" href="./css/jquery.fullpage.css">
+<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<div id="header">
+	<div class="nav">
+		<a href="#" class="mala-logo mala-fl"></a>
+		<div class="mala-fl">
+			<ul class="mala-list">
+				<li class="mala-item mala-fl"><a href="#" class="mala-link active">首页</a></li>
+				<li class="mala-item mala-fl"><a href="#" class="mala-link">产品介绍</a></li>
+				<li class="mala-item mala-fl"><a href="#" class="mala-link">用户版</a></li>
+			</ul>
+		</div>
+		<div class="nav-help">
+			<a href="#" id="j-app" class="nav-app">手机客户端<i></i></a>
+			<a href="#">百度司南</a>
+			<a href="#" id="content" class="content">联系我们</a>
+			<a href="#" class="yellow">申请试用</a>
+		</div>
+	</div>
+</div>
+<div id="fullpage">
+	<div class="section" id="section1">
+	    <div class="top">
+	    	<div class="bg-could-1"></div>
+	    </div>
+	    <div class="midden">
+	    	<div class="bg-could-2"></div>
+	    </div>
+	    <div class="bottom">
+	    	<div class="bg-could-3"></div>
+	    </div>
+		<div class="floow-header">
+			<div class="center">
+				<div class="bing1" style="visibility: visible"></div>
+				<div class="bing2" style="visibility: visible"></div>
+				<div class="bing3" style="visibility: visible"></div>
+				<div class="bing4" style="visibility: visible"></div>
+			</div>
+		</div>
+		<div class="center">
+			<!-- <div class="login-area" id="login"></div> -->
+			<div class="obj obj-launch" style="visibility: visible"></div>
+			<div class="obj obj-flight" style="visibility: visible"></div>
+		</div>
+		<div class="bottom">
+			<div class="center">
+				<a href="index.html#for2" class="btn-arr"></a>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section2">
+			<div class="center">
+				<div class="title-area title-area1">
+					<div class="title">
+						<h3 class="y-ain"></h3>
+						<div class="text">
+							<h4>数据收集与处理</h4>
+							<p>15年专业数据收集与语义分析技术积累<br/>卓越极致，不断攀登</p>
+						</div>
+					</div>
+				</div>
+				<div class="obj obj-brain" style="visibility: visible"></div>
+			</div>
+			<div class="bottom">
+				<div class="center2">
+					<div class="square1"></div>
+					<div class="square2"></div>
+					<div class="square3"></div>
+					<div class="square4"></div>
+					<div class="square5"></div>
+					<a href="index.html#for3" class="btn-arr"></a>
+				</div>
+			</div>
+	</div>
+	<div class="section" id="section3">
+	    <div class="top">
+	    	<div class="center">
+	    		<div class="square1"></div>
+				<div class="square2"></div>
+				<div class="square3"></div>
+				<div class="square4"></div>
+				<div class="square5"></div>
+	    	</div>
+	    </div>
+	    <div class="follow-head">	    	
+	    </div>
+		<div class="center">
+				<div class="title-area title-area3">
+					<div class="title">
+						<h3 class="y-ain"></h3>
+						<div class="text">
+							<h4>舆情分析逻辑与架构</h4>
+							<p>声量诊断、传播分析、情感提炼、受众画像<br/>有方法论,更有智慧</p>
+						</div>
+					</div>
+				</div>
+				<div class="obj obj-brain" style="visibility: visible"></div>
+			</div>
+		<div class="bottom">
+				<div class="center">					
+					<a href="index.html#for4" class="btn-arr"></a>
+				</div>
+		</div>
+	</div>
+	<div class="section" id="section4">
+		<div class="follow-head">
+		    <div class="copyright">
+		    	© 2014 Baidu
+		    	<a href="#">使用百度前必读</a>
+		    </div>
+		</div>
+		<div class="center">
+			<div class="title-area title-area4">
+			    <div class="bubble" style="visibility:visible"></div>
+				<div class="title">
+					<h3 class="y-ain"></h3>
+					<div class="text">
+						<h4>专业数据可视化</h4>
+						<p>非凡的数据洞悉和可视化能力<br/>精研数据,惊艳所见</p>
+					</div>
+				</div>
+			</div>
+			<div class="obj obj-brain" style="visibility: visible"></div>
+		</div>
+		
+	</div>
+</div>
+<script src="./js/jquery-1.12.0.js"></script>
+<script src="./js/jquery.fullpage.js"></script>
+<script>
+$(function(){
+     $('#fullpage').fullpage({
+        navigation:true,
+        navigationTooltips:['登录百度舆情','领先：数据收集与处理','全面：舆情分析逻辑与架构','专业：专业数据可视化'],
+        keyboardScrolling:true,
+        anchors:['for1','for2','for3','for4'],
+     })
+})
+</script>		
+</body>
+</html>
